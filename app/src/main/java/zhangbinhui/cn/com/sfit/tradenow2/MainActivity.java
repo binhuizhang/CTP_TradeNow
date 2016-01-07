@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity
                 });
 
                 //查询资金
+
                 CThostFtdcQryTradingAccountField tradingAccount = new CThostFtdcQryTradingAccountField();
                 tradingAccount.setBrokerID(brokerID);
                 tradingAccount.setInvestorID(investorID);
