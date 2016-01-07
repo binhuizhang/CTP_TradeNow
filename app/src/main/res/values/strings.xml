@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">不如TradeNow</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <drawable name="clr_normal">#3F51B5</drawable>
+    <drawable name="clr_pressed">#303F9F</drawable>
+</resources>

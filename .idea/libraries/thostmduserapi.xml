@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="thostmduserapi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/thostmduserapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhangbinhui.cn.com.sfit.tradenow2.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="合约代码"
+            android:textSize="20dp"
+            />
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="最新价"
+            android:textSize="20dp" />
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="涨跌"
+            android:textSize="20dp" />
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="持仓量"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <!--ListView 的 id android:id="@+id/md_listView"-->
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
